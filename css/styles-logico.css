@@ -254,6 +254,10 @@ font-size: 0;
     border-radius: 50%;
 }
 
+.slider-bullet:hover {
+    background: var(--white10);
+}
+
 .form input {
     inline-size: 100%;
     border: 1px solid var(--white30);
@@ -305,3 +309,32 @@ color: var(--white20);
         margin-block-start: 64px;
     }
 }
+
+.footer{
+    background: var(--white30);
+  }
+  
+  .footer-content{
+    padding: 48px 0;
+  }
+  
+  .footer-copyright, .social-media{
+    color: #251F24;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .footer-copyright{
+    font-size: 2rem;
+    line-height: 2.34rem;
+    margin-block-end: 1rem;
+  }
+  
+  .social-media a{
+    margin-inline-end: 1rem;
+  }
+
+  .iconos {
+      inline-size: 30px;
+      block-size: 30px;
+  }
